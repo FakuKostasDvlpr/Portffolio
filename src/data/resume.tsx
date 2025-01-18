@@ -99,7 +99,7 @@ export const DATA = {
       href: "http://www.gmssa.com/",
       location: "Presencial",
       title: "Analista Programador C# .NET SQL",
-      logoUrl: "http://www.gmssa.com/wp-content/uploads/2021/06/gms-ico.png",
+      logoUrl: "https://media.licdn.com/dms/image/v2/C4D0BAQHVF2SV3yM2KQ/company-logo_200_200/company-logo_200_200/0/1630566521737/gms_sa_logo?e=2147483647&v=beta&t=LdPMPici50JAFYXUvkuMfraPG0vchvgtkzQDY1EYoSk",
       start: "Mayo 2024",
       end: "Septiembre 2024",
       description:

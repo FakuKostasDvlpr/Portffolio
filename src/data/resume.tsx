@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Facundo Costas - Portfolio",
@@ -11,7 +11,7 @@ export const DATA = {
     "Desarrollador Frontend enfocado en crear interfaces modernas, eficientes y de alto rendimiento, utilizando mi conocimiento y mejores prácticas.",
   summary:
     "Mi nombre es facu, soy estudiante de ingeniería en sistemas informáticos y desarrollador de aplicaciones web He tenido la oportunidad de trabajar en proyectos relacionados al mundo del desarrollo web, sin embargo, actualmente mis intereses y todo mi enfoque se encuentra en la mejora de mis habilidades y conocimientos dentro del mundo del desarrollo de aplicaciones wweb, en especial aplicaciones orientadas a los sistemas de ventas y react. Soy un apasionado por el mundo de la tecnología y la creación de software, siempre en constante aprendizaje y tratando de estar lo más actualizado posible.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/icon.png",
   skills: [
     "React",
     "Next.js",
@@ -23,6 +23,11 @@ export const DATA = {
     "API RESTful",
     // "NPM",
     "GitHub",
+    "NodeJS",
+    "Mongo DB",
+    "Express",
+    "MySQL",
+    "C# .NET",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -124,28 +129,28 @@ export const DATA = {
     }
   ],
   projects: [
-    // {
-    //   title: "Asistente Educativo - Vercel AI SDK",
-    //   href: "",
-    //   dates: "Septiembre 2024 - Octubre 2024",
-    //   active: true,
-    //   description:
-    //     "Asistente educativo con IA, diseñado para apoyar a estudiantes en diversas materias escolares. Responde preguntas, proporciona explicaciones claras y ofrece ejemplos personalizados. Una funcionalidad clave del asistente es la capacidad de subir imágenes para facilitar la comprensión de temas complejos.",
-    //   technologies: [
-    //     "Next.js",
-    //     "React",
-    //     "CSS",
-    //     "Ui Verse",
-    //     "Vercel",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/Benit0Trdlla/Educational-Assistant",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    // },
+    {
+      title: "Asistente Educativo - Vercel AI SDK",
+      href: "",
+      dates: "Septiembre 2024 - Octubre 2024",
+      active: true,
+      description:
+        "Asistente educativo con IA, diseñado para apoyar a estudiantes en diversas materias escolares. Responde preguntas, proporciona explicaciones claras y ofrece ejemplos personalizados. Una funcionalidad clave del asistente es la capacidad de subir imágenes para facilitar la comprensión de temas complejos.",
+      technologies: [
+        "Next.js",
+        "React",
+        "CSS",
+        "Ui Verse",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https:github.com/Benit0Trdlla/Educational-Assistant",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+    },
     // {
     //   title: "Genera y Gestiona Tus Contraseñas",
     //   href: "https://genera-y-gestiona-tus-contrasenas-gray.vercel.app/",

@@ -149,7 +149,6 @@ export const DATA = {
         "React",
         "CSS",
         "EmailJS",
-        "JavaScript",
       ],
       links: [
         {
@@ -168,11 +167,9 @@ export const DATA = {
         "Esta web está diseñada para ayudar a creadores de contenido a maximizar su alcance y potenciar su mensaje en redes sociales. Ofrecemos servicios de edición de contenido de alto impacto y desarrollo de identidad de marca, asegurando que cada pieza creada transmita excelencia y profesionalismo.",
       technologies: [
         "Next.js",
-        "React",
-        "CSS",
         "Vercel",
         "Typescript",
-        "JavaScript",
+        "Tailwind",
       ],
       links: [
         {
@@ -183,23 +180,68 @@ export const DATA = {
       ],
     },
     {
-      title: "Destino San Javier",
-      href: "https://destinosanjavier.vercel.app/",
-      dates: "Octubre 2024 - Diciembre 2024",
+      title: "Polarsystem Obras",
+      href: "https://obraspolarsystem.com",
+      dates: "Noviembre 2023 - Febrero 2024",
       active: true,
       description:
-        "Esta web está diseñada para ayudar a creadores de contenido a maximizar su alcance y potenciar su mensaje en redes sociales. Ofrecemos servicios de edición de contenido de alto impacto y desarrollo de identidad de marca, asegurando que cada pieza creada transmita excelencia y profesionalismo.",
+        "Polarsystem se especializa en brindar soluciones integrales para mejorar la seguridad, privacidad y estética de vehículos y espacios. Ofrecemos films antivandálicos que refuerzan la protección, materiales espejados y esmerilados para privacidad sin perder elegancia, y opciones de aislamiento térmico adaptadas a cada necesidad.",
       technologies: [
         "Next.js",
-        "CSS",
-        "JavaScript",
         "TypeScript",
         "API/RESTful",
+        "Express",
+        "NodeJS",
+        "Tailwind",
       ],
       links: [
         {
           type: "Source",
           href: "https://github.com/FakuKostasDvlpr/destinosanjavier",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+    },
+    {
+      title: "Weather App - Consulta del Clima en Tiempo Real",
+      href: "https://fakukostasdvlpr.github.io/weatherP/",
+      dates: "Marzo 2023 - Marzo 2023",
+      active: true,
+      description:
+        "Desarrollé una aplicación que permite a los usuarios consultar el clima en tiempo real, utilizando datos precisos obtenidos de una API externa. La app muestra información relevante como temperatura, humedad, velocidad del viento y pronóstico por ubicación. Diseñada con una interfaz intuitiva y moderna, este proyecto destaca por su capacidad de integrar datos en tiempo real con una experiencia de usuario atractiva y funcional.",
+      technologies: [
+        "React",
+        "Api/Restful",
+        "Express",
+        "NodeJS",
+        "Tailwind",
+        "Javascript"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/FakuKostasDvlpr/weatherP",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+    },
+    {
+      title: "NFT Shop",
+      href: "https://github.com/FakuKostasDvlpr/NFTCommerce",
+      dates: "Febrero 2023 - Febrero 2023",
+      active: true,
+      description:
+        "NUCBA NFT es un innovador marketplace tecnológico enfocado en la educación sobre NFTs. Proporciona un espacio donde los usuarios pueden explorar, aprender y adquirir elementos digitales únicos con autenticidad garantizada. El sitio incluye una galería interactiva, información sobre creadores y valores de las piezas, así como integración educativa para entender la tecnología detrás de los NFTs y su impacto en el mundo digital.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Styled Components",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/FakuKostasDvlpr/weatherP",
           icon: <Icons.github className="size-3" />,
         },
       ],

@@ -81,8 +81,8 @@ export default function Page() {
       <section id="projects">
   <div className="space-y-12 w-full py-4">
     <BlurFade delay={BLUR_FADE_DELAY * 11}>
-      <div className="flex flex-col items-center justify-center space-y-4 text-center">
-        <div className="space-y-2">
+      <div className="flex flex-col items-center justify-center text-center">
+        <div className="flex items-center flex-col gap-5">
           <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
             Mis Proyectos
           </div>
@@ -95,7 +95,7 @@ export default function Page() {
         </div>
       </div>
     </BlurFade>
-    <div className="grid  grid-cols-1 gap-3 sm:grid-cols-1 max-w-[800px] mx-auto">
+    <div className="grid  grid-cols-2 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
       {DATA.projects.length > 0 ? (
         DATA.projects.map((project, id) => (
           <BlurFade
@@ -130,7 +130,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-1">
+          <div className="flex items-center justify-center  flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
                 <Badge key={skill}>{skill}</Badge>

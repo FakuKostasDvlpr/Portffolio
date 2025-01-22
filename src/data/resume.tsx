@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Desarrollador Frontend enfocado en crear interfaces modernas, eficientes y de alto rendimiento, utilizando mi conocimiento y mejores prácticas.",
   summary:
-    "Mi nombre es facu, soy estudiante de ingeniería en sistemas informáticos y desarrollador de aplicaciones web He tenido la oportunidad de trabajar en proyectos relacionados al mundo del desarrollo web, sin embargo, actualmente mis intereses y todo mi enfoque se encuentra en la mejora de mis habilidades y conocimientos, dentro del mundo del desarrollo de aplicaciones web en especial aplicaciones orientadas a los sistemas de ventas y react.",
+    "Hola, soy Facu! Desarrollador especializado en Frontend. ¿Estás pensando en digitalizar tu negocio? ¡Es el momento!🚀Trabajo principalmente con el stack MERN, En React me especializo en optimización de rendimiento y utilizo estrategias como profiling y monitoreo, Code Splitting, LazyLoading, virtualización de listas, Clean Architecture y más.",
   avatarUrl: "/icon.png",
   skills: [
     "React",
@@ -21,13 +21,14 @@ export const DATA = {
     "Styled Components",
     "Bootstrap",
     "API RESTful",
-    // "NPM",
+    "NPM",
     "GitHub",
     "NodeJS",
     "Mongo DB",
     "Express",
     "MySQL",
-    "C# .NET",
+    "C#",
+    ".NET",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -227,7 +228,7 @@ export const DATA = {
     },
     {
       title: "NFT Shop",
-      href: "https://github.com/FakuKostasDvlpr/NFTCommerce",
+      href: "https://fakukostasdvlpr.github.io/NFTCommerce/",
       dates: "Febrero 2023 - Febrero 2023",
       active: true,
       description:
@@ -241,7 +242,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/FakuKostasDvlpr/weatherP",
+          href: "https://github.com/FakuKostasDvlpr/NFTCommerce",
           icon: <Icons.github className="size-3" />,
         },
       ],

@@ -122,7 +122,7 @@ export const DATA = {
   education: [
     {
       school: "NUCBA - Desarrollador Fullstack",
-      href: "https://www.linkedin.com/in/facundo-costas-tealdi/overlay/1635548753468/single-media-viewer/?profileId=ACoAADsjJjsBMzbbnC0bc5eZTRtU9JgBu3wcfGM",
+      href: "https://nucba.com.ar/",
       degree: "Técnico en Informática",
       logoUrl: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1680895973/Galileo-Platform/Images/icons/logoOg_x23x0x.png",
       start: "2023",
@@ -138,6 +138,49 @@ export const DATA = {
     }
   ],
   projects: [
+    {
+      title: "Braindead",
+      href: "https://wearebraindead.com/",
+      dates: "Septiembre 2024 - Octubre 2024",
+      active: true,
+      description:
+        "E-commerce desarrollado en Shopify que ofrece ropa y calzado con diseños únicos y atrevidos. Inspirado en el arte, la música y la cultura urbana, combina funcionalidad, estilo y una experiencia de compra optimizada para el usuario. Incluye integración de pasarelas de pago, herramientas de marketing y un diseño completamente personalizado.",
+      technologies: [
+        // Frontend
+        "Liquid",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Shopify Themes",
+    
+        // Backend
+        "Shopify API",
+        "GraphQL",
+        "Node.js",
+    
+        // Herramientas de Marketing
+        "Google Analytics",
+        "Meta Pixel",
+        "Klaviyo",
+        "Hotjar",
+    
+        // Pasarelas de Pago
+        "Shopify Payments",
+        "PayPal",
+        "Stripe",
+    
+        // CDNs y Optimización
+        "Cloudflare",
+        "Fastly"
+      ],
+      // links: [
+      //   {
+      //     type: "Source",
+      //     href: "",
+      //     icon: <Icons.github className="size-3" />,
+      //   },
+      // ],
+    },
     {
       title: "Z-Bits",
       href: "https://zbits.vercel.app/",

@@ -24,7 +24,7 @@ interface Props {
     icon: React.ReactNode;
     type: string;
     href: string;
-  }[];
+  }[] ;
   className?: string;
 }
 

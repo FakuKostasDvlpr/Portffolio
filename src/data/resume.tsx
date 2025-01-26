@@ -68,7 +68,7 @@ export const DATA = {
       logoUrl: "https://refindable.com/wp-content/uploads/2022/05/cropped-Refindable-favicon-cuadrado-192x192.png",
       start: "Diciembre 2024",
       end: "Actualidad",
-      description: "Diseño, desarrollo y mantenimiento de sitios web en Shopify y WordPress, creando nuevas secciones, solucionando problemas y colaborando con clientes para implementar mejoras y cumplir sus objetivos digitales."
+      description: "Diseño, desarrollo y mantenimiento de sitios web en Shopify y WordPress, Webflow, Hubspot. creando nuevas secciones, solucionando problemas y colaborando con clientes para implementar mejoras y cumplir sus objetivos digitales."
     },
     {
       company: "BAEK & Co",
@@ -169,13 +169,13 @@ export const DATA = {
         "Stripe",
         "QuickBooks API"
       ],
-      // links: [
-      //   {
-      //     type: "Source",
-      //     href: "",
-      //     icon: <Icons.github className="size-3" />,
-      //   },
-      // ],
+      links: [
+        {
+          type: "",
+          href: "",
+          icon:"" ,
+        },
+      ],
     },
     {
       title: "Braindead",
@@ -212,13 +212,13 @@ export const DATA = {
         "Cloudflare",
         "Fastly"
       ],
-      // links: [
-      //   {
-      //     type: "Source",
-      //     href: "",
-      //     icon: <Icons.github className="size-3" />,
-      //   },
-      // ],
+      links: [
+        {
+          type: "",
+          href: "",
+          icon:"" ,
+        },
+      ],
     },
     {
       title: "Gnarly Nutritions",
@@ -253,13 +253,13 @@ export const DATA = {
         "Fastly",
         "Shopify Flow"
       ],
-      // links: [
-      //   {
-      //     type: "Source",
-      //     href: "",
-      //     icon: <Icons.github className="size-3" />,
-      //   },
-      // ],
+      links: [
+        {
+          type: "",
+          href: "",
+          icon:"" ,
+        },
+      ],
     },
     {
       title: "Z-Bits",

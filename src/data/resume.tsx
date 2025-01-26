@@ -64,7 +64,7 @@ export const DATA = {
       href: "https://refindable.com/",
       badges: [],
       location: "Remote",
-      title: "Desarrollador Web Shopify & WordPress",
+      title: "Desarrollador Web",
       logoUrl: "https://refindable.com/wp-content/uploads/2022/05/cropped-Refindable-favicon-cuadrado-192x192.png",
       start: "Diciembre 2024",
       end: "Actualidad",
@@ -139,9 +139,48 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Friendly Beast",
+      href: "https://friendlybeast.com/",
+      dates: "Diciembre 2024 - Actualidad ",
+      active: true,
+      description:
+        "Friendly Beast es una anticonsultoría innovadora que rompe con los esquemas tradicionales para ofrecer soluciones empresariales centradas en el crecimiento, la escalabilidad y el retorno de la inversión. Desde el reinicio de marca y la planificación estratégica hasta la optimización de capital y la expansión de mercados, proporciona un enfoque disruptivo para alcanzar objetivos empresariales de forma práctica y eficiente.",
+      technologies: [
+        // Desarrollo y Plataforma
+        "Webflow",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+
+        // Plataforma de Marketing y Gestión
+        "HubSpot",
+        "Zapier",
+        "Google Tag Manager",
+
+        // Herramientas de Análisis
+        "Hotjar",
+        "Google Analytics 4",
+
+        // Automatización y Escalabilidad
+        "Integromat (Make)",
+        "Airtable",
+
+        // Procesamiento Financiero
+        "Stripe",
+        "QuickBooks API"
+      ],
+      // links: [
+      //   {
+      //     type: "Source",
+      //     href: "",
+      //     icon: <Icons.github className="size-3" />,
+      //   },
+      // ],
+    },
+    {
       title: "Braindead",
       href: "https://wearebraindead.com/",
-      dates: "Septiembre 2024 - Octubre 2024",
+      dates: "Noviembre 2024 - Actualidad",
       active: true,
       description:
         "E-commerce desarrollado en Shopify que ofrece ropa y calzado con diseños únicos y atrevidos. Inspirado en el arte, la música y la cultura urbana, combina funcionalidad, estilo y una experiencia de compra optimizada para el usuario. Incluye integración de pasarelas de pago, herramientas de marketing y un diseño completamente personalizado.",
@@ -152,26 +191,67 @@ export const DATA = {
         "CSS3",
         "JavaScript",
         "Shopify Themes",
-    
+
         // Backend
         "Shopify API",
         "GraphQL",
         "Node.js",
-    
+
         // Herramientas de Marketing
         "Google Analytics",
         "Meta Pixel",
         "Klaviyo",
         "Hotjar",
-    
+
         // Pasarelas de Pago
         "Shopify Payments",
         "PayPal",
         "Stripe",
-    
+
         // CDNs y Optimización
         "Cloudflare",
         "Fastly"
+      ],
+      // links: [
+      //   {
+      //     type: "Source",
+      //     href: "",
+      //     icon: <Icons.github className="size-3" />,
+      //   },
+      // ],
+    },
+    {
+      title: "Gnarly Nutritions",
+      href: "https://www.gognarly.com/",
+      dates: "Noviembre 2024 - Actualidad",
+      active: true,
+      description:
+        "E-commerce desarrollado en Shopify para la venta de suplementos deportivos, incluyendo proteínas, creatinas y otros productos diseñados para deportistas de alto rendimiento. El sitio combina un diseño optimizado y responsivo con herramientas avanzadas de análisis y personalización para ofrecer una experiencia de compra excepcional.",
+      technologies: [
+        // Frontend
+        "Liquid",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+
+        // Backend
+        "Shopify API",
+        "GraphQL",
+
+        // Herramientas de Personalización y Marketing
+        "Klaviyo",
+        "Algolia Search",
+        "Google Tag Manager",
+        "GA4 (Google Analytics 4)",
+
+        // Pasarelas de Pago
+        "Shopify Payments",
+        "Afterpay",
+
+        // Optimización y Servicios
+        "Cloudflare",
+        "Fastly",
+        "Shopify Flow"
       ],
       // links: [
       //   {

@@ -77,7 +77,7 @@ export const DATA = {
       location: "Presencial",
       title: "Director de proyecto",
       logoUrl: "https://media.licdn.com/dms/image/v2/D4D0BAQGBQjVTWf2qtA/company-logo_200_200/company-logo_200_200/0/1735827400906/baekyco_logo?e=1745452800&v=beta&t=uwcP6SYsWT3JG19nDreAg67BNAgGaLm1WDTLjvZk45E",
-      start: "Octubre 2024",
+      start: "Agosto 2024",
       end: "Diciembre 2024",
       description:
         " Diseño y desarrollo de páginas web desde cero, colaborando con el equipo de marketing para aportar ideas creativas y técnicas. Trabajo tanto en el frontend como en el backend (PHP), con planes de migración a nuevas tecnologías.  Participación en reuniones con clientes para ofrecer soluciones y recomendaciones estratégicas que mejoren la experiencia del usuario y optimicen el producto.",
@@ -89,8 +89,8 @@ export const DATA = {
       location: "Remote",
       title: "Desarrollador web & Shopify",
       logoUrl: "https://cdn.batitienda.com/baticloud/images/brand_593438f2fc7c469bb0b998a51fde1ceb_638254724237105562_0_m.png",
-      start: "Julio 2024",
-      end: "Noviembre 2024",
+      start: "Abril 2024",
+      end: "Diciembre 2024",
       description:
         "  Creación y mantenimiento de la interfaz de usuario con Shopify Liquid: Desarrollo y personalización de secciones de la tienda en línea.Implementación de diseño responsive y aseguramiento de la funcionalidad en dispositivos móviles y desktop.Mantenimiento y optimización de la tienda en Shopify: Supervisión del rendimiento del sitio, actualizaciones y corrección de errores.",
     },
@@ -101,8 +101,8 @@ export const DATA = {
       location: "Presencial",
       title: "Analista Programador C# .NET SQL",
       logoUrl: "https://media.licdn.com/dms/image/v2/C4D0BAQHVF2SV3yM2KQ/company-logo_200_200/company-logo_200_200/0/1630566521737/gms_sa_logo?e=2147483647&v=beta&t=LdPMPici50JAFYXUvkuMfraPG0vchvgtkzQDY1EYoSk",
-      start: "Mayo 2024",
-      end: "Septiembre 2024",
+      start: "Julio 2024",
+      end: "Diciembre 2024",
       description:
         " Desarrollador de software con experiencia en la creación de interfaces de usuario utilizando WPF y en la implementación de lógica de negocio y servicios con C#. Especializado en la gestión de bases de datos, consultas SQL, pruebas, tratamiento de errores y optimización del rendimiento. Experto en la implementación y despliegue continuo de aplicaciones, trabajando en estrecha colaboración con equipos multidisciplinares. Hábil en la documentación técnica detallada y en asegurar la calidad del software.",
     },
@@ -113,8 +113,8 @@ export const DATA = {
       location: "Remote",
       title: "Programador Full Stack",
       logoUrl: "https://drewolf.com/wp-content/uploads/2022/08/cropped-favicon-2-32x32.png",
-      start: "Agosto 2023",
-      end: "Mayo 2024",
+      start: "Enero 2022",
+      end: "Abril 2024",
       description:
         " Desarrollo de aplicaciones web utilizando React y TypeScript para crear interfaces de usuario eficientes. En el backend, trabajo con C# y MongoDB, desarrollando servicios y API, así como creando y gestionando tablas en MongoDB. También soy responsable de probar la aplicación gestionar los errores encontrados en Jira, garantizando la calidad del producto final.",
     },

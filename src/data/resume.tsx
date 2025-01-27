@@ -141,7 +141,6 @@ export const DATA = {
     {
       title: "Friendly Beast",
       href: "https://friendlybeast.com/",
-      dates: "Diciembre 2024 - Actualidad ",
       active: true,
       description:
         "Friendly Beast es una anticonsultoría innovadora que rompe con los esquemas tradicionales para ofrecer soluciones empresariales centradas en el crecimiento, la escalabilidad y el retorno de la inversión. Desde el reinicio de marca y la planificación estratégica hasta la optimización de capital y la expansión de mercados, proporciona un enfoque disruptivo para alcanzar objetivos empresariales de forma práctica y eficiente.",
@@ -180,7 +179,6 @@ export const DATA = {
     {
       title: "Braindead",
       href: "https://wearebraindead.com/",
-      dates: "Noviembre 2024 - Actualidad",
       active: true,
       description:
         "E-commerce desarrollado en Shopify que ofrece ropa y calzado con diseños únicos y atrevidos. Inspirado en el arte, la música y la cultura urbana, combina funcionalidad, estilo y una experiencia de compra optimizada para el usuario. Incluye integración de pasarelas de pago, herramientas de marketing y un diseño completamente personalizado.",
@@ -221,9 +219,44 @@ export const DATA = {
       ],
     },
     {
+      title: "Sancor Bebe",
+      href: "https://sancorbebeshop.com.ar/",
+      active: true,
+      description:
+        "Sancor Bebé Shop es un e-commerce especializado en productos de nutrición y cuidado infantil. Ofrece una amplia variedad de fórmulas lácteas, suplementos y accesorios diseñados para el bienestar de los más pequeños, con un enfoque en la calidad y la confianza de una marca reconocida. La plataforma combina una experiencia de compra intuitiva y herramientas de personalización que garantizan un servicio adaptado a las necesidades de cada cliente.",
+      technologies: [
+        // Frontend
+        "Liquid",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+
+        // Backend
+        "Shopify API",
+
+        // Herramientas de Personalización y Marketing
+        "Algolia Search",
+        "GA4 (Google Analytics 4)",
+
+        // Pasarelas de Pago
+        "Shopify Payments",
+        "Afterpay",
+
+        // Optimización y Servicios
+        "Fastly",
+        "Shopify Flow"
+      ],
+      links: [
+        {
+          type: "",
+          href: "",
+          icon:"" ,
+        },
+      ],
+    },
+    {
       title: "Gnarly Nutritions",
       href: "https://www.gognarly.com/",
-      dates: "Noviembre 2024 - Actualidad",
       active: true,
       description:
         "E-commerce desarrollado en Shopify para la venta de suplementos deportivos, incluyendo proteínas, creatinas y otros productos diseñados para deportistas de alto rendimiento. El sitio combina un diseño optimizado y responsivo con herramientas avanzadas de análisis y personalización para ofrecer una experiencia de compra excepcional.",
@@ -264,7 +297,6 @@ export const DATA = {
     {
       title: "Z-Bits",
       href: "https://zbits.vercel.app/",
-      dates: "Septiembre 2024 - Octubre 2024",
       active: true,
       description:
         "Esta web ofrece servicios de consultoría IT enfocados en brindar soluciones personalizadas para empresas. Nos especializamos en ciberseguridad, redes e infraestructura, actuando como socios estratégicos en el desarrollo de herramientas que impulsan el crecimiento del negocio. Además, incluye medios de contacto para facilitar la comunicación directa con nuestros clientes y ofrecerles soporte a medida",
@@ -285,7 +317,6 @@ export const DATA = {
     {
       title: "Exposure",
       href: "https://exposureapp.netlify.app/",
-      dates: "Octubre 2024 - Diciembre 2024",
       active: true,
       description:
         "Esta web está diseñada para ayudar a creadores de contenido a maximizar su alcance y potenciar su mensaje en redes sociales. Ofrecemos servicios de edición de contenido de alto impacto y desarrollo de identidad de marca, asegurando que cada pieza creada transmita excelencia y profesionalismo.",
@@ -306,7 +337,6 @@ export const DATA = {
     {
       title: "Polarsystem Obras",
       href: "https://obraspolarsystem.com",
-      dates: "Noviembre 2023 - Febrero 2024",
       active: true,
       description:
         "Polarsystem se especializa en brindar soluciones integrales para mejorar la seguridad, privacidad y estética de vehículos y espacios. Ofrecemos films antivandálicos que refuerzan la protección, materiales espejados y esmerilados para privacidad sin perder elegancia, y opciones de aislamiento térmico adaptadas a cada necesidad.",
@@ -329,7 +359,6 @@ export const DATA = {
     {
       title: "Weather App - Consulta del Clima en Tiempo Real",
       href: "https://fakukostasdvlpr.github.io/weatherP/",
-      dates: "Marzo 2023 - Marzo 2023",
       active: true,
       description:
         "Desarrollé una aplicación que permite a los usuarios consultar el clima en tiempo real, utilizando datos precisos obtenidos de una API externa. La app muestra información relevante como temperatura, humedad, velocidad del viento y pronóstico por ubicación. Diseñada con una interfaz intuitiva y moderna, este proyecto destaca por su capacidad de integrar datos en tiempo real con una experiencia de usuario atractiva y funcional.",
@@ -352,7 +381,6 @@ export const DATA = {
     {
       title: "NFT Shop",
       href: "https://fakukostasdvlpr.github.io/NFTCommerce/",
-      dates: "Febrero 2023 - Febrero 2023",
       active: true,
       description:
         "NUCBA NFT es un innovador marketplace tecnológico enfocado en la educación sobre NFTs. Proporciona un espacio donde los usuarios pueden explorar, aprender y adquirir elementos digitales únicos con autenticidad garantizada. El sitio incluye una galería interactiva, información sobre creadores y valores de las piezas, así como integración educativa para entender la tecnología detrás de los NFTs y su impacto en el mundo digital.",

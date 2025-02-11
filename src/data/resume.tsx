@@ -1,5 +1,12 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon } from "lucide-react";
+import { LogoutButton } from "@/components/admin/logout-button";
+
+interface NavItem {
+  href: string;
+  icon: React.ComponentType;
+  label: string;
+}
 
 export const DATA = {
   name: "Facundo Costas - Portfolio",
@@ -30,9 +37,11 @@ export const DATA = {
     "C#",
     ".NET",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: {
+    links: [
+      { href: "/", icon: HomeIcon, label: "Home" }
+    ] as NavItem[],
+  },
   contact: {
     social: {
       GitHub: {

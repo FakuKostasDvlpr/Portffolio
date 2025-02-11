@@ -57,10 +57,17 @@ export function Dock({ className, children }: DockVariantProps & { children: Rea
 
 Dock.displayName = "Dock";
 
-export function DockIcon({ children, mousex = useMotionValue(Infinity), magnification = DEFAULT_MAGNIFICATION, distance = DEFAULT_DISTANCE, className }: DockIconProps) {
+export function DockIcon({ 
+  children, 
+  mousex, 
+  magnification = DEFAULT_MAGNIFICATION, 
+  distance = DEFAULT_DISTANCE, 
+  className 
+}: DockIconProps) {
   const ref = useRef<HTMLDivElement>(null);
+  const motionX = mousex ?? useMotionValue(Infinity); // ← Corrección aquí
 
-  const distanceCalc = useTransform(mousex, (val: number) => {
+  const distanceCalc = useTransform(motionX, (val: number) => {
     if (!ref.current) return 0;
     const bounds = ref.current.getBoundingClientRect();
     return val - bounds.x - bounds.width / 2;
@@ -87,7 +94,3 @@ export function DockIcon({ children, mousex = useMotionValue(Infinity), magnific
     </motion.div>
   );
 }
-
-DockIcon.displayName = "DockIcon";
-
-export { dockVariants };

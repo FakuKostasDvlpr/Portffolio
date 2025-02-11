@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils"
 import * as ToastPrimitives from "@radix-ui/react-toast"
 import { X } from "lucide-react"
 import * as React from "react"
+import Image from 'next/image'
 
 export function Toast({ title, description, className, ...props }: any) {
   return (
@@ -13,10 +14,12 @@ export function Toast({ title, description, className, ...props }: any) {
       )}
       {...props}
     >
-      <img
+      <Image
         src="/icon.png"
         alt="Facundo"
         className="w-12 h-12 rounded-full"
+        width={48}
+        height={48}
       />
       <div className="grid gap-1">
         {title && <ToastPrimitives.Title className="text-sm font-semibold">{title}</ToastPrimitives.Title>}

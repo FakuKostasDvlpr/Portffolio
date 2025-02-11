@@ -152,7 +152,7 @@ function AdminControls({ project, onEdit, onDelete, id, title }: {
           <AlertDialogHeader>
             <AlertDialogTitle>¿Estás seguro?</AlertDialogTitle>
             <AlertDialogDescription>
-              Esta acción eliminará permanentemente el proyecto "{title}".
+              Esta acción eliminará permanentemente el proyecto &quot;{title}&quot;.
               Esta acción no se puede deshacer.
             </AlertDialogDescription>
           </AlertDialogHeader>

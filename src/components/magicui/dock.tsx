@@ -65,7 +65,7 @@ export function DockIcon({
   className 
 }: DockIconProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const motionX = mousex ?? useMotionValue(Infinity); // ← Corrección aquí
+  const motionX = mousex ?? useMotionValue(Infinity);
 
   const distanceCalc = useTransform(motionX, (val: number) => {
     if (!ref.current) return 0;
